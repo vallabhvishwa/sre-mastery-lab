@@ -1,0 +1,23 @@
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Terraform generated state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# macOS
+.DS_Store
